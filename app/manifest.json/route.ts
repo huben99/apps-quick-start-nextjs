@@ -17,7 +17,7 @@ export async function GET() {
   const manifestData = {
     identifier: 'getting-started',
     name: 'Getting Started',
-    baseUrl: process.env.NEXT_PUBLIC_BASE_URL,
+    baseUrl: 'crowdin-fsx9sjrnr-huben99s-projects.vercel.app',
     logo: '/logo.svg',
     authentication: {
       type: 'crowdin_app',
