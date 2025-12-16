@@ -17,11 +17,11 @@ export async function GET() {
   const manifestData = {
     identifier: 'getting-started',
     name: 'Getting Started',
-    baseUrl: 'crowdin-fsx9sjrnr-huben99s-projects.vercel.app',
+    baseUrl: 'https://crowdin.vercel.app',
     logo: '/logo.svg',
     authentication: {
-      type: 'crowdin_app',
-      clientId: process.env.CROWDIN_CLIENT_ID,
+      type: 'none',
+      //clientId: process.env.CROWDIN_CLIENT_ID,
     },
     events: {
       installed: '/events/installed',
